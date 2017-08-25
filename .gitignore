@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.iml
+/.idea/
+/allure-results/
+/target/
+*.png
+/src/test/java/extentReport/
+/src/test/java/screenshot/

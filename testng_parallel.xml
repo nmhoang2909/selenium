@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel Browser" parallel="tests">
+
+    <test name="Firefox Driver">
+        <parameter name="browser" value="FIREFOX" />
+        <classes>
+            <!--<class name="testCases.DemoTest" />-->
+            <!--<class name="testCases.AlertTest" />-->
+            <!--<class name="testCases.DataTest" />-->
+            <!--<class name="testCases.ScreenShotTest" />-->
+            <class name="testCases.GenerateTest"/>
+        </classes>
+    </test>
+
+    <test name="Chrome Driver">
+        <parameter name="browser" value="CHROME" />
+        <classes>
+            <!--<class name="testCases.DemoTest" />-->
+            <!--<class name="testCases.AlertTest" />-->
+            <!--<class name="testCases.DataTest" />-->
+            <!--<class name="testCases.ScreenShotTest" />-->
+            <class name="testCases.GenerateTest"/>
+        </classes>
+    </test>
+</suite>
